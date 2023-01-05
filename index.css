@@ -125,7 +125,7 @@ dialog button:hover{
     box-shadow: #000 2px 2px 5px;
 }
 .comoFazer{
-    display: none;
+    display: non;
     position: relative;
     margin: auto;
 }
