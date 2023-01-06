@@ -31,7 +31,7 @@ buttonClose3.onclick = function () {
     modal3.close()
 }
 
-cmButton.onclick = function () {
+/*cmButton.onclick = function () {
     if (cmContent.style.display === 'block'){
         cmContent.style.display = 'none';
     }else{
@@ -42,4 +42,4 @@ inButton.onclick = function (){
     if (cmContent.style.display === 'block'){
         cmContent.style.display = 'none';
     }
-}
+}*/

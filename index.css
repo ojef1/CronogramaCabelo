@@ -165,14 +165,3 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     font-family: sans-serif;
 
 }
-article{
-    position: absolute;
-    right: 0;
-    top: 0;
-    
-    width: 10%;
-    height: 5rem;
-    margin-top: 6.8rem;
-    margin-right: 5rem;
-    margin-left: 3rem;
-}
