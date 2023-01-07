@@ -10,6 +10,7 @@ const buttonClose3 = document.querySelector("#modalClose3")
 const cmButton = document.querySelector('#CM')
 const cmContent = document.querySelector('#comoFazer')
 const inButton = document.querySelector('#IN')
+const menuMobile = document.querySelector('#menuMobile')
 
 img1.onclick = function (){
     modal1.showModal()
@@ -29,6 +30,15 @@ buttonClose2.onclick = function () {
 }
 buttonClose3.onclick = function () {
     modal3.close()
+}
+
+function abrirFechar () {
+    if (menuMobile.style.height === '70px'){
+    menuMobile.style.height = '250px';
+    }else {
+        menuMobile.style.height = '70px';
+    }
+    
 }
 
 /*cmButton.onclick = function () {
