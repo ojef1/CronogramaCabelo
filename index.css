@@ -1,11 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium'  
-}
-header{
-    box-shadow: #000 2px 2px 5px;
 }
 .menu{
     position: fixed;
@@ -22,7 +18,7 @@ background-image: linear-gradient(270deg, #b33ab3 0%, #6a1fd8 100%);
 }
 .menu li{
     display: inline-block;
-    margin: 15px 30px;
+    margin: 15px 22px;
  }
  .menu li a{
     font-size: 25px;
@@ -33,16 +29,13 @@ background-image: linear-gradient(270deg, #b33ab3 0%, #6a1fd8 100%);
     text-shadow: #000 2px 2px 5px;
  }
  .menu li a:hover{
-      font-size: 26px;
-      color: #FFDEE9;
-      text-shadow:  white 0px 0px 20px;
-      
+      color: #FFDEE9;   
  }
 .fundo{
     background-color: #b33ab3;
 background-image: linear-gradient(270deg, #b33ab3 0%, #6a1fd8 100%);
-    display: flex;
-    height: 35rem;
+    height: 39.7rem;
+    width: 100%;
 }
 .titulo{
     background-color: #FFDEE9;
@@ -50,40 +43,43 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    margin-top: 8rem;
-    margin-left: 10rem;
+    margin-top: 4.5rem;
     width: 26rem;
     text-align: center;
     font-size: 32px;
 }
-.img-fundo{
+
+.img-fundo {
     margin: auto;
+    margin-left: 4.5rem;
 }
 body{
     background-color: #b33ab3;
 background-image: linear-gradient(270deg, #b33ab3 0%, #6a1fd8 100%);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 .opcoes{
     display: flex;
-    margin: auto;
-    height: 13.8rem;
+    height: 13rem;
+    width: 100%;
     background-color: #FFDEE9;
 }
 .opcoes h2{
     color: #000;
     text-shadow: #fff 2px 2px 2px;
+    
 }
 .opcao1, .opcao2, .opcao3{
-   width: 150px; 
+   width: 100%; 
    height: 100px;
-   margin-left: 300px;
    margin-top: 20px;
    border-radius: 50px;
    text-align: center;
    transition: ease-in-out 0.3s;
 }
 .opcao1 img, .opcao2 img, .opcao3 img{
-    width: 100px;
+    width: 85px;
     
 }
 .opcao1:hover, .opcao2:hover, .opcao3:hover{
@@ -125,8 +121,6 @@ dialog button:hover{
     box-shadow: #000 2px 2px 5px;
 }
 .comoFazer{
-    display: non;
-    position: relative;
     margin: auto;
 }
 .tituloCM{
@@ -142,7 +136,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     color: transparent;
  }
  .contentCM{
-     width: 60%;
+     width: 85%;
      padding: 20px;
      margin: auto;
      margin-bottom: 5rem;

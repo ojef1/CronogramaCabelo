@@ -1,0 +1,30 @@
+@media screen and (min-width: 762px) and (max-width: 1023px){
+    .fundo{
+        display: flex;
+    }
+    .fundo img{
+        width: 450px;   
+    }
+    .img-fundo{
+        margin-left: 0px;
+    }
+    .titulo{
+        margin: auto ;
+    }
+}
+@media screen and (min-width: 1024px){
+    .fundo{
+        display: flex;
+        height: 48rem;
+    }
+    .fundo img{
+        width: 650px;   
+    }
+    .img-fundo{
+        margin-left: 0px;
+    }
+    .titulo{
+        margin: auto ;
+        font-size: 34px;
+    }
+}
