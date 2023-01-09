@@ -11,11 +11,14 @@
     .titulo{
         margin: auto ;
     }
+    dialog button{
+        margin-left: 27rem;        
+    }
 }
 @media screen and (min-width: 1024px){
     .fundo{
         display: flex;
-        height: 48rem;
+        height: 75vh;
     }
     .fundo img{
         width: 650px;   
@@ -26,6 +29,9 @@
     .titulo{
         margin: auto ;
         font-size: 34px;
+    }
+    dialog button{
+        margin-left: 27rem;        
     }
 }
 @media screen and (max-width: 761px){
@@ -65,5 +71,9 @@
         padding: 15px 0;
         transition: ease-in-out 0.5s;
         text-shadow: #000 2px 2px 5px;
-     }
+    }
+    dialog img{
+        width: 100vw;
+        height: 25vh;
+    }
 }
