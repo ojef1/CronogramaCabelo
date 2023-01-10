@@ -121,10 +121,14 @@ dialog button:hover{
     background-color: #FF0004;
     box-shadow: #000 2px 2px 5px;
 }
+.oQueE{
+    margin: auto;
+}
+
 .comoFazer{
     margin: auto;
 }
-.tituloCM{
+.tituloCM, .tituloOqe, .tituloPq{
     margin: auto;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
@@ -136,7 +140,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     -webkit-background-clip: text;
     color: transparent;
  }
- .contentCM{
+ .contentCM, .contentOqe, .contentPq{
      width: 80%;
      padding: 20px;
      margin: auto;
@@ -154,7 +158,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     text-shadow: #000 2px 2px 2px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
- .contentCM p{
+ .contentCM p, .contentOqe p, .contentPq{
     font-size: 1.3rem;
     color: #000;
     font-family: sans-serif;

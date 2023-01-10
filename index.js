@@ -34,7 +34,7 @@ buttonClose3.onclick = function () {
 
 function abrirFechar () {
     if (menuMobile.style.height === '70px'){
-    menuMobile.style.height = '250px';
+    menuMobile.style.height = '280px';
     }else {
         menuMobile.style.height = '70px';
     }
