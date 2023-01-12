@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium'  
 }
+header{
+    padding-top: 70px;
+}
 .menu{
     position: fixed;
    top: 0rem;
@@ -45,7 +48,6 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    margin-top: 4.5rem;
     width: 25rem;
     text-align: center;
     font-size: 30px;
@@ -121,16 +123,11 @@ dialog button:hover{
     background-color: #FF0004;
     box-shadow: #000 2px 2px 5px;
 }
-.oQueE{
-    margin: auto;
-}
-
-.comoFazer{
-    margin: auto;
+.oQueE, .pqFazer, .comoFazer{
+    padding-top: 70px;
 }
 .tituloCM, .tituloOqe, .tituloPq{
     margin: auto;
-    margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: 40px;
     text-align: center;
@@ -144,7 +141,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #b6b5ff 100%);
      width: 80%;
      padding: 20px;
      margin: auto;
-     margin-bottom: 5rem;
+     
      box-shadow: #000 2px 2px 5px;
      border-radius: .5rem;
      text-align: justify;
