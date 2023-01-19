@@ -76,4 +76,7 @@
         width: 100vw;
         height: 25vh;
     }
+    .ads{
+        display: none;
+    }
 }
