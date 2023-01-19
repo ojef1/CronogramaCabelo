@@ -14,6 +14,10 @@
     dialog button{
         margin-left: 27rem;        
     }
+    .ads-mobile{
+        margin-top: 1rem;
+        margin-left: 18rem;
+    }
 }
 @media screen and (min-width: 1024px){
     .fundo{
@@ -32,6 +36,9 @@
     }
     dialog button{
         margin-left: 27rem;        
+    }
+    .ads-mobile{
+        display: none;
     }
 }
 @media screen and (max-width: 761px){
@@ -78,5 +85,9 @@
     }
     .ads{
         display: none;
+    }
+    .ads-mobile{
+        margin-top: 1rem;
+        margin-left: 3rem;
     }
 }
