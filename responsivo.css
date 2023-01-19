@@ -18,10 +18,10 @@
 @media screen and (min-width: 1024px){
     .fundo{
         display: flex;
-        height: 75vh;
+        height: 70vh;
     }
     .fundo img{
-        width: 650px;   
+        width: 600px;   
     }
     .img-fundo{
         margin-left: 0px;
